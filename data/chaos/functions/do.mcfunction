@@ -15,7 +15,7 @@ execute if score c.rng c.main matches 10 run effect give @a[tag=!c.ignore] minec
 execute if score c.rng c.main matches 11 run function chaos:id/11
 execute if score c.rng c.main matches 12 run xp add @a[tag=!c.ignore] 10 levels
 execute if score c.rng c.main matches 13 run execute as @a[tag=!c.ignore] run tp @e[type=item,distance=..150] @s
-execute if score c.rng c.main matches 14 as @a[tag=c.use,tag=!c.ignore] run tp @a[tag=!c.ignore] @s
+execute if score c.rng c.main matches 14 as @a[tag=c.use,tag=!c.ignore] run tp @a[tag=!c.ignore,tag=!c.use] @s
 execute if score c.rng c.main matches 15 run function chaos:id/15
 execute if score c.rng c.main matches 16 run function chaos:id/16
 execute if score c.rng c.main matches 17 run function chaos:id/17

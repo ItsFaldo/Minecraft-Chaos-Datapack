@@ -1,4 +1,4 @@
-# Minecraft Chaos Datapack
+# The Orginal Minecraft Chaos Datapack
 <h3> Adds random positive and negative effects that happen every minute.<br>
  
  If you use this datapack in a video, please include a [link](https://github.com/ItsFaldo/Minecraft-Chaos-Datapack) to this github.

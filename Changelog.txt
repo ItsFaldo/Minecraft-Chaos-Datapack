@@ -1,17 +1,58 @@
-Chaos Datapack Changelog
+Minecraft Chaos Datapack Changelog
 Numbers in brackets are Effect ID's
 	(See 'ID List.txt')
 
+== Version 2.0 - Code Rewrite ==
+Added
+	11 New Effects
+		Eggsodus (67) [Chickens lay eggs very fast]
+		Timelapse (68) [Time moves fast]
+		From Riches to Dirt (69) [Dropped items turn into dirt]
+		Triggered Creepers (70) [All creepers explode]
+		Creeper Time (71) [All entitys become creepers]
+		Free Ender Chest (72)
+		Fletching Trader (73) [Small trading post with villager]
+		Villager Delivery (74) [A villager kills animals and delivers the food]
+		Like Comment Subscribe (75)
+		Midas Touch (76) [Turns blocks into gold]
+		OH NO, NOT THE BEES (77) [Constant attacking bees]
+	
+	
+Removed
+	Tracker armor stand
+	All scoreboards
+		Replaced with 2 new ones ('c.main' & 'c.ver')
+		To see scoreboard values type:
+			/scoreboard objectives setdisplay sidebar c.main
+		To hide them again type:
+			/scoreboard objectives setdisplay sidebar
+	
+Fixed
+	Countdown volume not updating
+	Datapack stops working occasionally after reloading
+
+Modified
+	RNG is now generated via a loot table
+	All scoreboard values are applied to 'c.main'	
+	Version number is now stored on 'c.ver'
+		(as 'cv.major' & 'cv.minor')		
+	Wither_Skeleton (63) renamed to 'Wither Skeleton'	
+	Ghasts (62) now spawn in sets of 3
+	Ores (54..61) now replace instead of destroy land
+	TP Everyone to Random Area (16)
+		And Nether (17) have lower distance		
+	Animal Jockeys (41) teleports insted of kills
+	
 	
 == Version 1.2 ==
 Added
 	13 New Effects
-	Ore Vains (54..61)
-	Ghast (62)
-	Wither_Skeleton (63)
-	Blaze (64)
-	Godly Zombie (65)
-	Gofly Skeleton (66)
+		Ore Vains (54..61)
+		Ghast (62)
+		Wither Skeleton (63)
+		Blaze (64)
+		Godly Zombie (65)
+		Godly Skeleton (66)
 
 Fixed
 	Saturation only lasting 2 seconds
@@ -21,13 +62,13 @@ Fixed
 == Version 1.1 ==
 Added
 	6 New Effects
-	Zombie & Skeleton Squad
-		[Replaces Zombie (44) & Skeleton (45)]
-	Picnic Basket (51) [Lots of different foods]
-	Kill Aura [Event]
-		[Replaces Hostiles Down (49)]
-	Fly On The Wings Of Love (52) [Event]
-	Killer Bunnies (53)
+		Zombie & Skeleton Squad
+			Replaces Zombie (44) & Skeleton (45)
+		Kill Aura [Event]
+			Replaces Hostiles Down (49)
+		Picnic Basket (51) [Lots of different foods]
+		Fly On The Wings Of Love (52) [Event]
+		Killer Bunnies (53)
 	
 Fixed
 	Welcome Text (Now appears in chat)

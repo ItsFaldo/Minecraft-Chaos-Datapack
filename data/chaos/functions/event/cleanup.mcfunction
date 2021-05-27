@@ -1,4 +1,6 @@
-execute at @e[type=armor_stand,tag=c.track,scores={c.event=2}] run function chaos:event/id/2/cu
+execute if score c.event c.main matches 2 run function chaos:event/id/2/cu
+execute if score c.event c.main matches 3 run function chaos:event/id/3/cu
+execute if score c.event c.main matches 7 run function chaos:event/id/7/cu
 
-scoreboard players set @e[type=armor_stand,tag=c.track,scores={c.event=1..}] c.event.timer 0
-scoreboard players set @e[type=armor_stand,tag=c.track,scores={c.event=1..}] c.event 0
+scoreboard players reset c.event.timer c.main
+scoreboard players reset c.event c.main

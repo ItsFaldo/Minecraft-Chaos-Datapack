@@ -16,7 +16,9 @@ Added
 		Like Comment Subscribe (75)
 		Midas Touch (76) [Turns blocks into gold]
 		OH NO, NOT THE BEES (77) [Constant attacking bees]
-	
+
+	Update Detection
+		Updates your world when a previous version is found
 	
 Removed
 	Tracker armor stand

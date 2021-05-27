@@ -1,0 +1,2 @@
+execute at @e[type=armor_stand,tag=c.track,scores={c.event.timer=180..}] run function chaos:event/cleanup
+execute at @e[type=armor_stand,tag=c.track,scores={c.event.timer=170}] run tellraw @a ["",{"text":"\n"},{"text":"Kill Aura will end in 10 Seconds!","color":"gold"},{"text":"\n "}]

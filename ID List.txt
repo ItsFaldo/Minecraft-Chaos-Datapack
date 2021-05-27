@@ -1,0 +1,66 @@
+1: Bad Omen
+2: Blindness
+3: Hunger
+4: Levitation
+5: Mining Fatigue
+6: Nausea
+7: Poison
+8: Slowness
+9: Weakness
+10: Wither
+11: Unlucky
+12: +10 XP
+13: Suck up Items
+14: TP Everyone to player
+15: Obsidian Prison
+16: TP Everyone to Random Area
+17: TP Everyone to Random Area (Nether)
+18: TP Hostiles to Everyone
+19: TNT
+20: Sunrise
+21: Sunset
+22: Sunny
+23: Raining
+24: Thunder
+25: -10 XP
+26: Zeus's Lightning Bolt
+27: Player Killed Everyone
+28: Napalm
+29: Health Boost
+30: Fire Resistance
+31: Haste
+32: Speed
+33: Slow Falling
+34: Jump Boost
+35: Night Vision
+36: Regeneration
+37: Resistance
+38: Saturation
+39: Lucky
+40: Birds and the Bees
+41: Animal Jockeys
+42: Fake Creeper
+43: Creeper
+44: Zombie Squad
+45: Skeleton Squad
+46: Slime King
+47: Player is Richer
+48: Death Pit
+49: Kill Aura (3 Minutes)
+50: TP Animals to Everyone
+51: Picnic Basket
+52: Fly on the wings of love (3 Minutes)
+53: Killer Bunnies
+54: Dig Down (diamond)
+55: Dig Down (Gold)
+56: Dig Down (Iron)
+57: Dig Down (Coal)
+58: Dig Down (Lapis)
+59: Dig Down (Redstone)
+60: Dig Down (Emerald)
+61: Dig Down (Quartz)
+62: Ghast
+63: Wither_Skeleton
+64: Blaze
+65: Godly Zombie
+66: Godly Skeleton

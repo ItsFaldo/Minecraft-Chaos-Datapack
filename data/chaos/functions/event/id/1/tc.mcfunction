@@ -1,0 +1,1 @@
+execute at @a run kill @e[type=#chaos:hostiles,distance=..7]

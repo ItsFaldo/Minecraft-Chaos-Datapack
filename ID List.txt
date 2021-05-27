@@ -41,10 +41,13 @@
 41: Animal Jockeys
 42: Fake Creeper
 43: Creeper
-44: Zombie
-45: Skeleton
+44: Zombie Squad
+45: Skeleton Squad
 46: Slime King
 47: Player is Richer
 48: Death Pit
-49: Hostiles Down
+49: Kill Aura (3 Minutes)
 50: TP Animals to Everyone
+51: Picnic Basket
+52: Fly on the wings of love (3 Minutes)
+53: Killer Bunnies

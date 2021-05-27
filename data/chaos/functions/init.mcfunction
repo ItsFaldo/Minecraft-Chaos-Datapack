@@ -15,7 +15,7 @@ bossbar add chaos:timerbar {"text":""}
 bossbar set chaos:timerbar color red
 bossbar set chaos:timerbar max 59
 bossbar set chaos:timerbar value 0
-bossbar set chaos:timerbar name {"text":"Chaos Datapack Initialized!"}
+bossbar set chaos:timerbar name {"text":"Chaos Datapack v1.2 Initialized!"}
 scoreboard players set @a c.doid 0
 
 forceload add 0 0

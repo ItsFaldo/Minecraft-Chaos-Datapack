@@ -1,3 +1,0 @@
-execute at @a run summon minecraft:rabbit ~ ~ ~1 {Health:20,Attributes:[{Name:"generic.max_health",Base:20F}],RabbitType:99,CustomName:"\"A Killer Bunny\""}
-execute at @a run summon minecraft:rabbit ~1 ~ ~ {Health:20,Attributes:[{Name:"generic.max_health",Base:20F}],RabbitType:99,CustomName:"\"A Killer Bunny\""}
-execute at @a run summon minecraft:rabbit ~-1 ~ ~ {Health:20,Attributes:[{Name:"generic.max_health",Base:20F}],RabbitType:99,CustomName:"\"A Killer Bunny\""}

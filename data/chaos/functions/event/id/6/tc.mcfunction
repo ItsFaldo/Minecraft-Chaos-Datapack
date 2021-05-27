@@ -1,24 +1,13 @@
-execute at @a[tag=!c.ignore] if block ~ ~-1 ~ air run tag @p[distance=0] add c.midas.1
-execute at @a[tag=!c.ignore] if block ~ ~2 ~ air run tag @p[distance=0] add c.midas.2
-execute at @a[tag=!c.ignore] if block ~ ~ ~-1 air run tag @p[distance=0] add c.midas.3
-execute at @a[tag=!c.ignore] if block ~ ~ ~1 air run tag @p[distance=0] add c.midas.4
-execute at @a[tag=!c.ignore] if block ~1 ~ ~ air run tag @p[distance=0] add c.midas.5
-execute at @a[tag=!c.ignore] if block ~-1 ~ ~ air run tag @p[distance=0] add c.midas.6
-execute at @a[tag=!c.ignore] if block ~ ~1 ~-1 air run tag @p[distance=0] add c.midas.7
-execute at @a[tag=!c.ignore] if block ~ ~1 ~1 air run tag @p[distance=0] add c.midas.8
-execute at @a[tag=!c.ignore] if block ~1 ~1 ~ air run tag @p[distance=0] add c.midas.9
-execute at @a[tag=!c.ignore] if block ~-1 ~1 ~ air run tag @p[distance=0] add c.midas.10
-
-execute at @a[tag=!c.ignore] if block ~ ~-1 ~ cave_air run tag @p[distance=0] add c.midas.1
-execute at @a[tag=!c.ignore] if block ~ ~2 ~ cave_air run tag @p[distance=0] add c.midas.2
-execute at @a[tag=!c.ignore] if block ~ ~ ~-1 cave_air run tag @p[distance=0] add c.midas.3
-execute at @a[tag=!c.ignore] if block ~ ~ ~1 cave_air run tag @p[distance=0] add c.midas.4
-execute at @a[tag=!c.ignore] if block ~1 ~ ~ cave_air run tag @p[distance=0] add c.midas.5
-execute at @a[tag=!c.ignore] if block ~-1 ~ ~ cave_air run tag @p[distance=0] add c.midas.6
-execute at @a[tag=!c.ignore] if block ~ ~1 ~-1 cave_air run tag @p[distance=0] add c.midas.7
-execute at @a[tag=!c.ignore] if block ~ ~1 ~1 cave_air run tag @p[distance=0] add c.midas.8
-execute at @a[tag=!c.ignore] if block ~1 ~1 ~ cave_air run tag @p[distance=0] add c.midas.9
-execute at @a[tag=!c.ignore] if block ~-1 ~1 ~ cave_air run tag @p[distance=0] add c.midas.10
+execute at @a[tag=!c.ignore] if block ~ ~-1 ~ #chaos:midas run tag @p[distance=0] add c.midas.1
+execute at @a[tag=!c.ignore] if block ~ ~2 ~ #chaos:midas run tag @p[distance=0] add c.midas.2
+execute at @a[tag=!c.ignore] if block ~ ~ ~-1 #chaos:midas run tag @p[distance=0] add c.midas.3
+execute at @a[tag=!c.ignore] if block ~ ~ ~1 #chaos:midas run tag @p[distance=0] add c.midas.4
+execute at @a[tag=!c.ignore] if block ~1 ~ ~ #chaos:midas run tag @p[distance=0] add c.midas.5
+execute at @a[tag=!c.ignore] if block ~-1 ~ ~ #chaos:midas run tag @p[distance=0] add c.midas.6
+execute at @a[tag=!c.ignore] if block ~ ~1 ~-1 #chaos:midas run tag @p[distance=0] add c.midas.7
+execute at @a[tag=!c.ignore] if block ~ ~1 ~1 #chaos:midas run tag @p[distance=0] add c.midas.8
+execute at @a[tag=!c.ignore] if block ~1 ~1 ~ #chaos:midas run tag @p[distance=0] add c.midas.9
+execute at @a[tag=!c.ignore] if block ~-1 ~1 ~ #chaos:midas run tag @p[distance=0] add c.midas.10
 
 execute at @a[tag=!c.midas.1,tag=!c.ignore] run setblock ~ ~-1 ~ minecraft:gold_block replace
 execute at @a[tag=!c.midas.2,tag=!c.ignore] run setblock ~ ~2 ~ minecraft:gold_block replace

@@ -10,7 +10,6 @@ scoreboard players reset c.event.timer c.main
 scoreboard players set cv.update c.ver 1
 execute if entity @e[type=minecraft:armor_stand,tag=c.track,limit=1] run function chaos:update/1x
 execute if score cv.major c.ver matches 2 if score cv.minor c.ver matches 0 if score cv.update c.ver matches 1 run function chaos:update/2x
-scoreboard players reset cv.update c.ver
 
 forceload add 0 0
 setblock 0 1 0 chest replace

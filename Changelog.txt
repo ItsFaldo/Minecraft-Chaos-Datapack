@@ -2,6 +2,22 @@ Chaos Datapack Changelog
 Numbers in brackets are Effect ID's
 	(See 'ID List.txt')
 
+	
+== Version 1.2 ==
+Added
+	13 New Effects
+	Ore Vains (54..61)
+	Ghast (62)
+	Wither_Skeleton (63)
+	Blaze (64)
+	Godly Zombie (65)
+	Gofly Skeleton (66)
+
+Fixed
+	Saturation only lasting 2 seconds
+	Deathpit not appearing for everyone
+	
+	
 == Version 1.1 ==
 Added
 	6 New Effects

@@ -52,7 +52,28 @@ execute at @a[tag=c.use,scores={c.doid=50}] run bossbar set chaos:timerbar name 
 execute at @a[tag=c.use,scores={c.doid=51}] run bossbar set chaos:timerbar name {"text":"Picnic Basket"}
 execute at @a[tag=c.use,scores={c.doid=52}] run bossbar set chaos:timerbar name {"text":"Fly On The Wings Of Love (3 Minutes)"}
 execute at @a[tag=c.use,scores={c.doid=53}] run bossbar set chaos:timerbar name {"text":"Killer Bunnies"}
-execute at @a[tag=c.use,scores={c.doid=54}] run bossbar set chaos:timerbar name {"text":"You're Safe, Nothing happened!"}
+execute at @a[tag=c.use,scores={c.doid=54}] run bossbar set chaos:timerbar name {"text":"Dig Down"}
+execute at @a[tag=c.use,scores={c.doid=55}] run bossbar set chaos:timerbar name {"text":"Dig Down"}
+execute at @a[tag=c.use,scores={c.doid=56}] run bossbar set chaos:timerbar name {"text":"Dig Down"}
+execute at @a[tag=c.use,scores={c.doid=57}] run bossbar set chaos:timerbar name {"text":"Dig Down"}
+execute at @a[tag=c.use,scores={c.doid=58}] run bossbar set chaos:timerbar name {"text":"Dig Down"}
+execute at @a[tag=c.use,scores={c.doid=59}] run bossbar set chaos:timerbar name {"text":"Dig Down"}
+execute at @a[tag=c.use,scores={c.doid=60}] run bossbar set chaos:timerbar name {"text":"Dig Down"}
+execute at @a[tag=c.use,scores={c.doid=61}] run bossbar set chaos:timerbar name {"text":"Dig Down"}
+execute at @a[tag=c.use,scores={c.doid=62}] run bossbar set chaos:timerbar name {"text":"Ghast"}
+execute at @a[tag=c.use,scores={c.doid=63}] run bossbar set chaos:timerbar name {"text":"Wither_Skeleton"}
+execute at @a[tag=c.use,scores={c.doid=64}] run bossbar set chaos:timerbar name {"text":"Blaze"}
+execute at @a[tag=c.use,scores={c.doid=65}] run bossbar set chaos:timerbar name {"text":"Godly Zombie"}
+execute at @a[tag=c.use,scores={c.doid=66}] run bossbar set chaos:timerbar name {"text":"Godly Skeleton"}
+##execute at @a[tag=c.use,scores={c.doid=67}] run bossbar set chaos:timerbar name {"text":""}##
+execute at @a[tag=c.use,scores={c.doid=68}] run bossbar set chaos:timerbar name {"text":""}
+execute at @a[tag=c.use,scores={c.doid=69}] run bossbar set chaos:timerbar name {"text":""}
+execute at @a[tag=c.use,scores={c.doid=70}] run bossbar set chaos:timerbar name {"text":""}
+execute at @a[tag=c.use,scores={c.doid=71}] run bossbar set chaos:timerbar name {"text":""}
+
+
+
+execute at @a[tag=c.use,scores={c.doid=67}] run bossbar set chaos:timerbar name {"text":"You're Safe, Nothing happened!"}
 execute at @a[tag=c.use,scores={c.doid=999}] run bossbar set chaos:timerbar name {"text":"You're Safe, Nothing happened!"}
 
 ##execute at @a[tag=c.use,scores={c.doid=}] run bossbar set chaos:timerbar name {"text":""}##

@@ -1,0 +1,50 @@
+1: Bad Omen
+2: Blindness
+3: Hunger
+4: Levitation
+5: Mining Fatigue
+6: Nausea
+7: Poison
+8: Slowness
+9: Weakness
+10: Wither
+11: Unlucky
+12: +10 XP
+13: Suck up Items
+14: TP Everyone to player
+15: Obsidian Prison
+16: TP Everyone to Random Area
+17: TP Everyone to Random Area (Nether)
+18: TP Hostiles to Everyone
+19: TNT
+20: Sunrise
+21: Sunset
+22: Sunny
+23: Raining
+24: Thunder
+25: -10 XP
+26: Zeus's Lightning Bolt
+27: Player Killed Everyone
+28: Napalm
+29: Health Boost
+30: Fire Resistance
+31: Haste
+32: Speed
+33: Slow Falling
+34: Jump Boost
+35: Night Vision
+36: Regeneration
+37: Resistance
+38: Saturation
+39: Lucky
+40: Birds and the Bees
+41: Animal Jockeys
+42: Fake Creeper
+43: Creeper
+44: Zombie
+45: Skeleton
+46: Slime King
+47: Player is Richer
+48: Death Pit
+49: Hostiles Down
+50: TP Animals to Everyone

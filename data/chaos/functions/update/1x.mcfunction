@@ -11,4 +11,5 @@ scoreboard objectives remove c.t1
 scoreboard objectives remove c.timer
 scoreboard objectives remove c.walk
 
+tag @a remove c.tut
 scoreboard players reset cv.update c.ver

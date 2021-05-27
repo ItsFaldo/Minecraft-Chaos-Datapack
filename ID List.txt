@@ -1,0 +1,50 @@
+Bad Omen
+Blindness
+Hunger
+Levitation
+Mining Fatigue
+Nausea
+Poison
+Slowness
+Weakness
+Wither
+Unlucky
++10 XP
+Suck up Items
+TP Everyone to player
+Obsidian Prison
+TP Everyone to Random Area
+TP Everyone to Random Area (Nether)
+TP Hostiles to Everyone
+TNT
+Sunrise
+Sunset
+Sunny
+Raining
+Thunder
+-10 XP
+Zeus's Lightning Bolt
+Player Killed Everyone
+Napalm
+Health Boost
+Fire Resistance
+Haste
+Speed
+Slow Falling
+Jump Boost
+Night Vision
+Regeneration
+Resistance
+Saturation
+Lucky
+Birds and the Bees
+Animal Jockeys
+Fake Creeper
+Creeper
+Zombie
+Skeleton
+Slime King
+Player is Richer
+Death Pit
+Hostiles Down
+TP Animals to Everyone

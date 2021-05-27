@@ -41,26 +41,10 @@
 41: Animal Jockeys
 42: Fake Creeper
 43: Creeper
-44: Zombie Squad
-45: Skeleton Squad
+44: Zombie
+45: Skeleton
 46: Slime King
 47: Player is Richer
 48: Death Pit
-49: Kill Aura (3 Minutes)
+49: Hostiles Down
 50: TP Animals to Everyone
-51: Picnic Basket
-52: Fly on the wings of love (3 Minutes)
-53: Killer Bunnies
-54: Dig Down (diamond)
-55: Dig Down (Gold)
-56: Dig Down (Iron)
-57: Dig Down (Coal)
-58: Dig Down (Lapis)
-59: Dig Down (Redstone)
-60: Dig Down (Emerald)
-61: Dig Down (Quartz)
-62: Ghast
-63: Wither_Skeleton
-64: Blaze
-65: Godly Zombie
-66: Godly Skeleton

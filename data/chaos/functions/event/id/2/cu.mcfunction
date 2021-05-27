@@ -1,1 +1,0 @@
-clear @a minecraft:elytra{display:{Name:"[{\"text\":\"Fly On The Wings Of Love\",\"italic\":false}]"}}

@@ -12,7 +12,6 @@
 	"minecraft:stray",
 	"minecraft:witch",
 	"minecraft:zombie",
-	"minecraft:zombie_villager",
-	"minecraft:phantom"
+	"minecraft:zombie_villager"
 	]
 }

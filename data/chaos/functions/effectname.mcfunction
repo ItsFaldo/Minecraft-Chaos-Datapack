@@ -1,4 +1,4 @@
-execute at @a[tag=c.use,scores={c.doid=0}] run bossbar set chaos:timerbar name ["",{"text":"Chaos Datapack created by "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"/"},{"text":"ALIENated","color":"green"}]
+bossbar set chaos:timerbar name {"text":""}
 execute at @a[tag=c.use,scores={c.doid=1}] run bossbar set chaos:timerbar name {"text":"Bad Omen"}
 execute at @a[tag=c.use,scores={c.doid=2}] run bossbar set chaos:timerbar name {"text":"Blindness"}
 execute at @a[tag=c.use,scores={c.doid=3}] run bossbar set chaos:timerbar name {"text":"Hunger"}
@@ -17,7 +17,7 @@ execute at @a[tag=c.use,scores={c.doid=15}] run bossbar set chaos:timerbar name 
 execute at @a[tag=c.use,scores={c.doid=16}] run bossbar set chaos:timerbar name {"text":"TP Everyone to Random Area"}
 execute at @a[tag=c.use,scores={c.doid=17}] run bossbar set chaos:timerbar name {"text":"TP Everyone to Random Area (Nether)"}
 execute at @a[tag=c.use,scores={c.doid=18}] run bossbar set chaos:timerbar name {"text":"TP Hostiles to Everyone"}
-execute at @a[tag=c.use,scores={c.doid=19}] run bossbar set chaos:timerbar name {"text":"TNT"}
+execute at @a[tag=c.use,scores={c.doid=19}] run bossbar set chaos:timerbar name {"text":"TnT"}
 execute at @a[tag=c.use,scores={c.doid=20}] run bossbar set chaos:timerbar name {"text":"Sunrise"}
 execute at @a[tag=c.use,scores={c.doid=21}] run bossbar set chaos:timerbar name {"text":"Sunset"}
 execute at @a[tag=c.use,scores={c.doid=22}] run bossbar set chaos:timerbar name {"text":"Sunny"}
@@ -42,14 +42,17 @@ execute at @a[tag=c.use,scores={c.doid=40}] run bossbar set chaos:timerbar name 
 execute at @a[tag=c.use,scores={c.doid=41}] run bossbar set chaos:timerbar name {"text":"Animal Jockeys"}
 execute at @a[tag=c.use,scores={c.doid=42}] run bossbar set chaos:timerbar name {"text":"Fake Creeper"}
 execute at @a[tag=c.use,scores={c.doid=43}] run bossbar set chaos:timerbar name {"text":"Creeper"}
-execute at @a[tag=c.use,scores={c.doid=44}] run bossbar set chaos:timerbar name {"text":"Zombie"}
-execute at @a[tag=c.use,scores={c.doid=45}] run bossbar set chaos:timerbar name {"text":"Skeleton"}
+execute at @a[tag=c.use,scores={c.doid=44}] run bossbar set chaos:timerbar name {"text":"Zombie Squad"}
+execute at @a[tag=c.use,scores={c.doid=45}] run bossbar set chaos:timerbar name {"text":"Skeleton Squad"}
 execute as @a[tag=c.use,scores={c.doid=46}] run bossbar set chaos:timerbar name ["",{"text":"Slime King is Attacking "},{"selector":"@s"}]
 execute as @a[tag=c.use,scores={c.doid=47}] run bossbar set chaos:timerbar name ["",{"text":""},{"selector":"@s"},{"text":" is Richer"}]
 execute at @a[tag=c.use,scores={c.doid=48}] run bossbar set chaos:timerbar name {"text":"Death Pit"}
-execute at @a[tag=c.use,scores={c.doid=49}] run bossbar set chaos:timerbar name {"text":"Hostiles Down"}
+execute at @a[tag=c.use,scores={c.doid=49}] run bossbar set chaos:timerbar name {"text":"Kill Aura (3 Minutes)"}
 execute at @a[tag=c.use,scores={c.doid=50}] run bossbar set chaos:timerbar name {"text":"TP Animals to Everyone"}
-execute at @a[tag=c.use,scores={c.doid=51}] run bossbar set chaos:timerbar name {"text":"Nothing"}
-
+execute at @a[tag=c.use,scores={c.doid=51}] run bossbar set chaos:timerbar name {"text":"Picnic Basket"}
+execute at @a[tag=c.use,scores={c.doid=52}] run bossbar set chaos:timerbar name {"text":"Fly On The Wings Of Love (3 Minutes)"}
+execute at @a[tag=c.use,scores={c.doid=53}] run bossbar set chaos:timerbar name {"text":"Killer Bunnies"}
+execute at @a[tag=c.use,scores={c.doid=54}] run bossbar set chaos:timerbar name {"text":"You're Safe, Nothing happened!"}
+execute at @a[tag=c.use,scores={c.doid=999}] run bossbar set chaos:timerbar name {"text":"You're Safe, Nothing happened!"}
 
 ##execute at @a[tag=c.use,scores={c.doid=}] run bossbar set chaos:timerbar name {"text":""}##

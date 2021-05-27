@@ -1,3 +1,16 @@
+execute if score c.timer c.main matches 5 if score c.updated c.main matches 1.. run bossbar set chaos:timerbar name ["",{"text":"World updated to Chaos v"},{"score":{"name":"cv.major","objective":"c.ver"}},{"text":"."},{"score":{"name":"cv.minor","objective":"c.ver"}}]
+execute if score c.timer c.main matches 5 if score c.updated c.main matches 1.. run tag @a remove c.tut
+execute if score c.timer c.main matches 5 if score c.updated c.main matches 1.. run scoreboard players reset c.updated c.main
+
+execute if score c.timer c.main matches 5 run tellraw @a[tag=!c.tut] {"text":""}
+execute if score c.timer c.main matches 5 run tellraw @a[tag=!c.tut] ["",{"text":"Welcome to Minecraft Chaos v"},{"score":{"name":"cv.major","objective":"c.ver"}},{"text":"."},{"score":{"name":"cv.minor","objective":"c.ver"}}]
+execute if score c.timer c.main matches 5 run tellraw @a[tag=!c.tut] ["",{"text":"Created by "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"!"},{"text":" Also known as: ","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}},{"text":"\nALIENated","color":"light_purple","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}},{"text":" & ","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}},{"text":"ThatRandomSomeone","color":"green","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}}]
+execute if score c.timer c.main matches 5 run tellraw @a[tag=!c.tut] {"text":""}
+execute if score c.timer c.main matches 5 run tellraw @a[tag=!c.tut] ["",{"text":"There are "},{"text":"77","color":"green"},{"text":" random effects!\nA random effect happens every minute"}]
+execute if score c.timer c.main matches 5 run tellraw @a[tag=!c.tut] {"text":"Good luck! For more info, click here","hoverEvent":{"action":"show_text","contents":{"text":"The red bar at the top of the screen\nindicates the time till the next effect.\n\nThere is a 3 second countdown above\nthe red bar with note block sounds.\n\nTo change the countdown volume, go to\nMusic & Sound Options. (Jukebox/Note...)\n\nThe last effect is shown above\nthe red bar after 10 seconds."}}}
+execute if score c.timer c.main matches 5 run tellraw @a[tag=!c.tut] {"text":""}
+execute if score c.timer c.main matches 5 run tag @a[tag=!c.tut] add c.tut
+
 execute if score c.timer c.main matches 10 run function chaos:effectname
 execute if score c.timer c.main matches 40 run bossbar set chaos:timerbar name {"text":""}
 execute if score c.timer c.main matches 45 run tag @a[tag=c.use] remove c.use
@@ -10,13 +23,5 @@ execute if score c.timer c.main matches 56..58 as @a run execute at @s run plays
 execute if score c.timer c.main matches 59 as @a run execute at @s run playsound minecraft:block.note_block.bit record @s ~ ~ ~ 1 1 0
 execute if score c.timer c.main matches 59 run function chaos:do
 execute if score c.timer c.main matches 59 run scoreboard players set c.timer c.main 0
-
-tellraw @a[tag=!c.tut] {"text":""}
-tellraw @a[tag=!c.tut] ["",{"text":"Welcome to Minecraft Chaos v"},{"score":{"name":"cv.major","objective":"c.ver"}},{"text":"."},{"score":{"name":"cv.minor","objective":"c.ver"}}]
-tellraw @a[tag=!c.tut] ["",{"text":"Created by "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"!"},{"text":" Also known as: ","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}},{"text":"\nALIENated","color":"light_purple","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}},{"text":" & ","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}},{"text":"ThatRandomSomeone","color":"green","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}}]
-tellraw @a[tag=!c.tut] {"text":""}
-tellraw @a[tag=!c.tut] ["",{"text":"There are "},{"text":"77","color":"green"},{"text":" random effects!\nA random effect happens every minute"}]
-tellraw @a[tag=!c.tut] {"text":"Good luck! For more info, click here","hoverEvent":{"action":"show_text","contents":{"text":"The red bar at the top of the screen\nindicates the time till the next effect.\n\nThere is a 3 second countdown above\nthe red bar with note block sounds.\n\nTo change the countdown volume, go to\nMusic & Sound Options. (Jukebox/Note...)\n\nThe last effect is shown above\nthe red bar after 10 seconds."}}}
-tag @a[tag=!c.tut] add c.tut
 
 execute if score c.event c.main matches 1.. run function chaos:event/timer

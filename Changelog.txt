@@ -44,6 +44,8 @@ Modified
 	TP Everyone to Random Area (16)
 		And Nether (17) have lower distance		
 	Animal Jockeys (41) teleports insted of kills
+	Midas Touch (67) now ignores
+		grass, tall_grass, #flowers, chest, trapped_chest, ender_chest and #shulker_boxes
 	
 	
 == Version 1.2 ==

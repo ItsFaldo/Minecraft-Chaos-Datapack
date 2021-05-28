@@ -43,10 +43,14 @@ Modified
 	Ores (54..61) now replace instead of destroy land
 	TP Everyone to Random Area (16)
 		And Nether (17) have lower distance		
-	Animal Jockeys (41) teleports insted of kills
+	Animal Jockeys (41) teleports instead of kills
 	Midas Touch (67) now ignores
 		air, cave_air, grass, tall_grass, #flowers,
 		chest, trapped_chest, ender_chest, #shulker_boxes
+	Player is Richer (47) now gives items
+		instead of dropping them from the sky
+		Added 8 Netherite Ingots
+
 	
 	
 == Version 1.2 ==

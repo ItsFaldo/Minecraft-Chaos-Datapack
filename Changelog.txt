@@ -32,6 +32,7 @@ Removed
 Fixed
 	Countdown volume not updating
 	Datapack stops working occasionally after reloading
+	Eggsodus (67) stops working after 1 minute
 
 Modified
 	RNG is now generated via a loot table
@@ -49,7 +50,10 @@ Modified
 		chest, trapped_chest, ender_chest, #shulker_boxes
 	Player is Richer (47) now gives items
 		instead of dropping them from the sky
-		Added 8 Netherite Ingots
+		Added 8 Netherite Ingots	
+	Eggsodus (67) chickens drop eggs every 10 seconds
+		instead of every 5 seconds
+	
 
 	
 	

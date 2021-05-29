@@ -3,6 +3,7 @@
  
  If you use this datapack in a video, please include a [link](https://github.com/ItsFaldo/Minecraft-Chaos-Datapack) to this github.
  <br>
+ <br>Currently working on [Version 2.0](https://github.com/ItsFaldo/Minecraft-Chaos-Datapack/tree/Update-v2.0). Code Rewrite, Bug Fixes & More Effects!
  
  [Click here to download latest version](https://github.com/ItsFaldo/Minecraft-Chaos-Datapack/releases/latest)
  <br>

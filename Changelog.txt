@@ -53,6 +53,8 @@ Modified
 	Ghasts (62) now spawn in sets of 3
 	Dig Down (54..61) now replace instead of destroying land
 		Added sound effect
+		Changed Nether Quartz Ore (61) to Ancient Debris
+			Reduced size from 18 to 9
 
 	TP Everyone to Random Area (16)
 		And Nether (17) have lower distance		

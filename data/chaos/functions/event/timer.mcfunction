@@ -8,3 +8,4 @@ execute if score c.event c.main matches 6 run function chaos:event/id/6/tm
 execute if score c.event c.main matches 7 run function chaos:event/id/7/tm
 execute if score c.event c.main matches 8 run function chaos:event/id/8/tm
 execute if score c.event c.main matches 9 run function chaos:event/id/9/tm
+execute if score c.event c.main matches 10 run function chaos:event/id/10/tm

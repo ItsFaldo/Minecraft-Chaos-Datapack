@@ -10,6 +10,7 @@ execute if score c.rng c.main matches 76 run scoreboard players set c.event c.ma
 execute if score c.rng c.main matches 77 run scoreboard players set c.event c.main 7
 execute if score c.rng c.main matches 78 run scoreboard players set c.event c.main 8
 execute if score c.rng c.main matches 79 run scoreboard players set c.event c.main 9
+execute if score c.rng c.main matches 80 run scoreboard players set c.event c.main 10
 
 
 execute if score c.rng c.main matches 52 run function chaos:event/id/2/st

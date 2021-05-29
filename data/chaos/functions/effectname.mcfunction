@@ -78,7 +78,7 @@ execute if score c.rng c.main matches 76 run bossbar set chaos:timerbar name {"t
 execute if score c.rng c.main matches 77 run bossbar set chaos:timerbar name {"text":"OH NO, NOT THE BEES! (3 Minutes)"}
 execute if score c.rng c.main matches 78 run bossbar set chaos:timerbar name {"text":"Friendly Creepers (3 Minutes)"}
 execute if score c.rng c.main matches 79 run bossbar set chaos:timerbar name {"text":"Friendly Monsters (3 Minutes)"}
-execute if score c.rng c.main matches 80 run bossbar set chaos:timerbar name {"text":""}
+execute if score c.rng c.main matches 80 run bossbar set chaos:timerbar name {"text":"1HP (3 Minutes)"}
 execute if score c.rng c.main matches 81 run bossbar set chaos:timerbar name {"text":""}
 execute if score c.rng c.main matches 82 run bossbar set chaos:timerbar name {"text":""}
 execute if score c.rng c.main matches 83 run bossbar set chaos:timerbar name {"text":""}

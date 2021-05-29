@@ -19,7 +19,16 @@ Added
 
 	Update Detection
 		Updates your world when a previous version is found
-	
+
+	Debug Mode & Menu
+		Stops RNG & Disables Effects
+		Menu Options
+			Get list of Effect ID's (Opens the Github Page)
+			Set & Run an effect	
+			Change effect target
+				Yourself, Everyone and No one
+			Reload Datapack(s) & Disable Debug Mode
+
 Removed
 	Tracker armor stand
 	All scoreboards
@@ -53,10 +62,8 @@ Modified
 		Added 8 Netherite Ingots	
 	Eggsodus (67) chickens drop eggs every 10 seconds
 		instead of every 5 seconds
-	
 
-	
-	
+
 == Version 1.2 ==
 Added
 	13 New Effects

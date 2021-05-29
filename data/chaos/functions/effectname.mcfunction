@@ -1,4 +1,4 @@
-bossbar set chaos:timerbar name {"text":""}
+execute unless score c.debug c.main matches 1.. run bossbar set chaos:timerbar name {"text":""}
 execute if score c.rng c.main matches 1 run bossbar set chaos:timerbar name {"text":"Bad Omen"}
 execute if score c.rng c.main matches 2 run bossbar set chaos:timerbar name {"text":"Blindness"}
 execute if score c.rng c.main matches 3 run bossbar set chaos:timerbar name {"text":"Hunger"}

@@ -1,6 +1,6 @@
 tag @a[limit=1,sort=random] add c.use
 setblock 0 1 0 chest replace
-execute at @a[tag=c.use,tag=!c.force] run execute store result score c.rng c.main run loot insert 0 1 0 loot chaos:rng
+execute unless score c.debug c.main matches 1.. run execute store result score c.rng c.main run loot insert 0 1 0 loot chaos:rng
 
 execute if score c.rng c.main matches 1 run effect give @a[tag=!c.ignore] minecraft:bad_omen 120 1 true
 execute if score c.rng c.main matches 2 run effect give @a[tag=!c.ignore] minecraft:blindness 120 3 true

@@ -17,6 +17,14 @@
 	"minecraft:fox",
 	"minecraft:bee",
 	"minecraft:hoglin",
-	"minecraft:strider"
+	"minecraft:strider",
+	"minecraft:cod",
+	"minecraft:mule",
+	"minecraft:parrot",
+	"minecraft:llama",
+	"minecraft:trader_llama",
+	"minecraft:polar_bear",
+	"minecraft:hoglin",
+	"minecraft:villager"
 	]
 }

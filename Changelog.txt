@@ -51,7 +51,9 @@ Modified
 		(as 'cv.major' & 'cv.minor')		
 	Wither_Skeleton (63) renamed to 'Wither Skeleton'	
 	Ghasts (62) now spawn in sets of 3
-	Ores (54..61) now replace instead of destroy land
+	Dig Down (54..61) now replace instead of destroying land
+		Added sound effect
+
 	TP Everyone to Random Area (16)
 		And Nether (17) have lower distance		
 	Animal Jockeys (41) teleports instead of kills

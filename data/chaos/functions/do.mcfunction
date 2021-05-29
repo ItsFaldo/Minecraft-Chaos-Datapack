@@ -55,14 +55,14 @@ execute if score c.rng c.main matches 50 run execute as @a[tag=!c.ignore] at @s 
 execute if score c.rng c.main matches 51 run execute at @a[tag=!c.ignore] run setblock ~ ~ ~ chest[facing=south]{CustomName:"\"Picnic Basket\"",Items:[{Slot:0,id:cooked_chicken,Count:6},{Slot:1,id:cooked_beef,Count:6},{Slot:2,id:cooked_porkchop,Count:6},{Slot:3,id:baked_potato,Count:8},{Slot:4,id:pumpkin_pie,Count:4},{Slot:5,id:golden_apple,Count:2},{Slot:6,id:melon_slice,Count:16},{Slot:7,id:cookie,Count:16},{Slot:8,id:cake,Count:1}]} replace
 execute if score c.rng c.main matches 52 run function chaos:event/start
 execute if score c.rng c.main matches 53 run function chaos:id/53
-execute if score c.rng c.main matches 54 run execute at @a[tag=!c.ignore] run fill ~1 ~-2 ~1 ~-1 ~-3 ~-1 diamond_ore replace
-execute if score c.rng c.main matches 55 run execute at @a[tag=!c.ignore] run fill ~1 ~-2 ~1 ~-1 ~-3 ~-1 gold_ore replace
-execute if score c.rng c.main matches 56 run execute at @a[tag=!c.ignore] run fill ~1 ~-2 ~1 ~-1 ~-3 ~-1 iron_ore replace
-execute if score c.rng c.main matches 57 run execute at @a[tag=!c.ignore] run fill ~1 ~-2 ~1 ~-1 ~-3 ~-1 coal_ore replace
-execute if score c.rng c.main matches 58 run execute at @a[tag=!c.ignore] run fill ~1 ~-2 ~1 ~-1 ~-3 ~-1 lapis_ore replace
-execute if score c.rng c.main matches 59 run execute at @a[tag=!c.ignore] run fill ~1 ~-2 ~1 ~-1 ~-3 ~-1 redstone_ore replace
-execute if score c.rng c.main matches 60 run execute at @a[tag=!c.ignore] run fill ~1 ~-2 ~1 ~-1 ~-3 ~-1 emerald_ore replace
-execute if score c.rng c.main matches 61 run execute at @a[tag=!c.ignore] run fill ~1 ~-2 ~1 ~-1 ~-3 ~-1 nether_quartz_ore replace
+execute if score c.rng c.main matches 54 run function chaos:id/54
+execute if score c.rng c.main matches 55 run function chaos:id/55
+execute if score c.rng c.main matches 56 run function chaos:id/56
+execute if score c.rng c.main matches 57 run function chaos:id/57
+execute if score c.rng c.main matches 58 run function chaos:id/58
+execute if score c.rng c.main matches 59 run function chaos:id/59
+execute if score c.rng c.main matches 60 run function chaos:id/60
+execute if score c.rng c.main matches 61 run function chaos:id/61
 execute if score c.rng c.main matches 62 run function chaos:id/62
 execute if score c.rng c.main matches 63 run execute at @a[tag=!c.ignore] run summon minecraft:wither_skeleton ~ ~ ~
 execute if score c.rng c.main matches 64 run execute at @a[tag=!c.ignore] run summon minecraft:blaze ~ ~ ~

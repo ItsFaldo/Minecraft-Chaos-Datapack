@@ -57,7 +57,6 @@ Modified
 		Added sound effect
 		Changed Nether Quartz Ore (61) to Ancient Debris
 			Reduced size from 18 to 9
-
 	TP Everyone to Random Area (16)
 		And Nether (17) have lower distance		
 	Animal Jockeys (41) teleports instead of kills
@@ -69,6 +68,8 @@ Modified
 		Added 8 Netherite Ingots	
 	Eggsodus (67) chickens drop eggs every 10 seconds
 		instead of every 5 seconds	
+	Blindness (2) Duration to 60 from 120
+	Slowness (8) Duration to 60 from 120
 
 
 == Version 1.2 ==

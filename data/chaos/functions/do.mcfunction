@@ -3,13 +3,13 @@ setblock 0 1 0 chest replace
 execute unless score c.debug c.main matches 1.. run execute store result score c.rng c.main run loot insert 0 1 0 loot chaos:rng
 
 execute if score c.rng c.main matches 1 run effect give @a[tag=!c.ignore] minecraft:bad_omen 120 1 true
-execute if score c.rng c.main matches 2 run effect give @a[tag=!c.ignore] minecraft:blindness 120 3 true
+execute if score c.rng c.main matches 2 run effect give @a[tag=!c.ignore] minecraft:blindness 60 3 true
 execute if score c.rng c.main matches 3 run effect give @a[tag=!c.ignore] minecraft:hunger 60 10 true
 execute if score c.rng c.main matches 4 run effect give @a[tag=!c.ignore] minecraft:levitation 15 2 true
 execute if score c.rng c.main matches 5 run effect give @a[tag=!c.ignore] minecraft:mining_fatigue 120 10 true
 execute if score c.rng c.main matches 6 run effect give @a[tag=!c.ignore] minecraft:nausea 60 10 true
 execute if score c.rng c.main matches 7 run effect give @a[tag=!c.ignore] minecraft:poison 60 0 true
-execute if score c.rng c.main matches 8 run effect give @a[tag=!c.ignore] minecraft:slowness 120 4 true
+execute if score c.rng c.main matches 8 run effect give @a[tag=!c.ignore] minecraft:slowness 60 4 true
 execute if score c.rng c.main matches 9 run effect give @a[tag=!c.ignore] minecraft:weakness 120 1 true
 execute if score c.rng c.main matches 10 run effect give @a[tag=!c.ignore] minecraft:wither 15 0 true
 execute if score c.rng c.main matches 11 run function chaos:id/11

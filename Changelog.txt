@@ -16,13 +16,13 @@ Added
 		Like Comment Subscribe (75)
 		Midas Touch (76) [Turns blocks into gold]
 		OH NO, NOT THE BEES (77) [Constant attacking bees]
-		Friendly Creepers (78)
-		Friendly Monsters (79)
+		Friendly Creepers (78) [Creepers never attack]
+		Friendly Monsters (79) [Monsters never attack]		
 
 	Update Detection
 		Updates your world when a previous version is found
 
-	Debug Mode & Menu
+	Debug Mode & Menu [/function chaos:debug]
 		Stops RNG & Disables Effects
 		Menu Options
 			Get list of Effect ID's (Opens the Github Page)
@@ -35,10 +35,7 @@ Removed
 	Tracker armor stand
 	All scoreboards
 		Replaced with 2 new ones ('c.main' & 'c.ver')
-		To see scoreboard values type:
-			/scoreboard objectives setdisplay sidebar c.main
-		To hide them again type:
-			/scoreboard objectives setdisplay sidebar
+		To see scoreboard values type: /function chaos:debug
 	Slow falling from 'Lucky' (39)
 	
 Fixed
@@ -46,7 +43,7 @@ Fixed
 	Datapack stops working occasionally after reloading
 	Eggsodus (67) stops working after 1 minute
 	Hostiles.json missing all hostile entitys
-	passives.json missing all breadable entitys
+	passives.json missing all passive entitys
 
 Modified
 	RNG is now generated via a loot table

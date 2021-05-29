@@ -3,8 +3,10 @@ scoreboard objectives add c.ver dummy "Chaos Version"
 scoreboard players set c.ticktime c.main 0
 scoreboard players reset c.rng c.main
 scoreboard players reset c.timer c.main
-scoreboard players reset c.event c.main
 scoreboard players reset c.event.timer c.main
+
+function chaos:event/cleanup
+scoreboard players reset c.event c.main
 
 ## Detect old versions
 execute if entity @e[type=minecraft:armor_stand,tag=c.track,limit=1] run function chaos:update/1x

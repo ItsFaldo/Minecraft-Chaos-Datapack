@@ -4,7 +4,7 @@ Numbers in brackets are Effect ID's
 
 == Version 2.0 - Code Rewrite ==
 Added
-	11 New Effects
+	13 New Effects
 		Eggsodus (67) [Chickens lay eggs very fast]
 		Timelapse (68) [Time moves fast]
 		From Riches to Dirt (69) [Dropped items turn into dirt]
@@ -16,6 +16,8 @@ Added
 		Like Comment Subscribe (75)
 		Midas Touch (76) [Turns blocks into gold]
 		OH NO, NOT THE BEES (77) [Constant attacking bees]
+		Friendly Creepers (78)
+		Friendly Monsters (79)
 
 	Update Detection
 		Updates your world when a previous version is found

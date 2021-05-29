@@ -79,5 +79,11 @@ execute if score c.rng c.main matches 74 run function chaos:id/74
 execute if score c.rng c.main matches 75 run title @a[tag=!c.ignore] title ["",{"text":"LIKE!","bold":true,"color":"aqua"},{"text":" COMMENT!","bold":true,"color":"green"},{"text":" SUBSCRIBE!","bold":true,"color":"red"}]
 execute if score c.rng c.main matches 76 run function chaos:event/start
 execute if score c.rng c.main matches 77 run function chaos:event/start
-execute if score c.rng c.main matches 78
-execute if score c.rng c.main matches 79
+execute if score c.rng c.main matches 78 run function chaos:event/start
+execute if score c.rng c.main matches 79 run function chaos:event/start
+execute if score c.rng c.main matches 80
+execute if score c.rng c.main matches 81
+execute if score c.rng c.main matches 82
+execute if score c.rng c.main matches 83
+execute if score c.rng c.main matches 84
+execute if score c.rng c.main matches 85

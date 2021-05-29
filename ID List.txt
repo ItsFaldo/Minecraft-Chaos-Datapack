@@ -75,3 +75,5 @@
 75: Like Comment Subscribe
 76: Midas Touch (1 Minute)
 77: OH NO, NOT THE BEES! (3 Minutes)
+78: Friendly Creepers (3 Minutes)
+79: Friendly Monsters (3 Minutes)

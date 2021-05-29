@@ -76,11 +76,16 @@ execute if score c.rng c.main matches 74 run bossbar set chaos:timerbar name {"t
 execute if score c.rng c.main matches 75 run bossbar set chaos:timerbar name {"text":"Like Comment Subscribe"}
 execute if score c.rng c.main matches 76 run bossbar set chaos:timerbar name {"text":"Midas Touch (1 Minute)"}
 execute if score c.rng c.main matches 77 run bossbar set chaos:timerbar name {"text":"OH NO, NOT THE BEES! (3 Minutes)"}
-execute if score c.rng c.main matches 78 run bossbar set chaos:timerbar name {"text":""}
-execute if score c.rng c.main matches 79 run bossbar set chaos:timerbar name {"text":""}
+execute if score c.rng c.main matches 78 run bossbar set chaos:timerbar name {"text":"Friendly Creepers (3 Minutes)"}
+execute if score c.rng c.main matches 79 run bossbar set chaos:timerbar name {"text":"Friendly Monsters (3 Minutes)"}
+execute if score c.rng c.main matches 80 run bossbar set chaos:timerbar name {"text":""}
+execute if score c.rng c.main matches 81 run bossbar set chaos:timerbar name {"text":""}
+execute if score c.rng c.main matches 82 run bossbar set chaos:timerbar name {"text":""}
+execute if score c.rng c.main matches 83 run bossbar set chaos:timerbar name {"text":""}
+execute if score c.rng c.main matches 84 run bossbar set chaos:timerbar name {"text":""}
+execute if score c.rng c.main matches 85 run bossbar set chaos:timerbar name {"text":""}
 
 
-execute if score c.rng c.main matches 78 run bossbar set chaos:timerbar name {"text":"You're Safe, Nothing happened!"}
 execute if score c.rng c.main matches 999 run bossbar set chaos:timerbar name {"text":"You're Safe, Nothing happened!"}
 
 ## execute if score c.rng c.main matches  run bossbar set chaos:timerbar name {"text":""}

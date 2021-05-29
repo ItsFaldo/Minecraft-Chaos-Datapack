@@ -46,7 +46,7 @@ Fixed
 	Datapack stops working occasionally after reloading
 	Eggsodus (67) stops working after 1 minute
 	Hostiles.json missing all hostile entitys
-	Breedable.json missing all breadable entitys
+	passives.json missing all breadable entitys
 
 Modified
 	RNG is now generated via a loot table

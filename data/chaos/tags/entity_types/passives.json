@@ -25,6 +25,8 @@
 	"minecraft:trader_llama",
 	"minecraft:polar_bear",
 	"minecraft:hoglin",
-	"minecraft:villager"
+	"minecraft:villager",
+	"minecraft:iron_golem",
+	"minecraft:wandering_trader"
 	]
 }

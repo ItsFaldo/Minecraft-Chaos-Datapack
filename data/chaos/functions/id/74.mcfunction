@@ -1,5 +1,5 @@
-execute at @a[tag=!c.ignore] run execute as @e[type=#chaos:breedable,distance=..100] run data merge entity @s {Fire:10000,HurtTime:10000}
-execute at @a[tag=!c.ignore] run kill @e[type=#chaos:breedable,distance=..100]
+execute at @a[tag=!c.ignore] run execute as @e[type=#chaos:passives,distance=..100] run data merge entity @s {Fire:10000,HurtTime:10000}
+execute at @a[tag=!c.ignore] run kill @e[type=#chaos:passives,distance=..100]
 execute at @a[tag=!c.ignore] run summon villager ~1 ~5 ~1 {VillagerData:{profession:butcher,level:99,type:savanna},Invulnerable:1,PersistenceRequired:1,Tags:[c.i.74]}
 execute at @e[tag=c.i.74] run particle minecraft:large_smoke ~ ~ ~ 0 1 0 0.2 25 normal @a[tag=!c.ignore]
 

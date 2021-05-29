@@ -41,7 +41,7 @@ execute if score c.rng c.main matches 36 run effect give @a[tag=!c.ignore] minec
 execute if score c.rng c.main matches 37 run effect give @a[tag=!c.ignore] minecraft:resistance 60 3 true
 execute if score c.rng c.main matches 38 run effect give @a[tag=!c.ignore] minecraft:saturation 2700 1 true
 execute if score c.rng c.main matches 39 run function chaos:id/39
-execute if score c.rng c.main matches 40 run execute at @a[tag=!c.ignore] as @e[type=#chaos:breedable,distance=..150] run data merge entity @s {InLove:6000}
+execute if score c.rng c.main matches 40 run execute at @a[tag=!c.ignore] as @e[type=#chaos:passives,distance=..150] run data merge entity @s {InLove:6000}
 execute if score c.rng c.main matches 41 run function chaos:id/41
 execute if score c.rng c.main matches 42 run execute at @a[tag=!c.ignore] run playsound minecraft:entity.creeper.primed master @a[tag=!c.ignore] ~ ~ ~ 10 1
 execute if score c.rng c.main matches 43 run execute at @a[tag=!c.ignore] run summon creeper ~ ~ ~
@@ -51,7 +51,7 @@ execute if score c.rng c.main matches 46 at @a[tag=c.use,tag=!c.ignore] run summ
 execute if score c.rng c.main matches 47 run function chaos:id/47
 execute if score c.rng c.main matches 48 run execute at @a[tag=!c.ignore] run fill ~1 255 ~1 ~-1 1 ~-1 air replace
 execute if score c.rng c.main matches 49 run function chaos:event/start
-execute if score c.rng c.main matches 50 run execute as @a[tag=!c.ignore] at @s run tp @e[type=#chaos:breedable,distance=..150] @s
+execute if score c.rng c.main matches 50 run execute as @a[tag=!c.ignore] at @s run tp @e[type=#chaos:passives,distance=..150] @s
 execute if score c.rng c.main matches 51 run execute at @a[tag=!c.ignore] run setblock ~ ~ ~ chest[facing=south]{CustomName:"\"Picnic Basket\"",Items:[{Slot:0,id:cooked_chicken,Count:6},{Slot:1,id:cooked_beef,Count:6},{Slot:2,id:cooked_porkchop,Count:6},{Slot:3,id:baked_potato,Count:8},{Slot:4,id:pumpkin_pie,Count:4},{Slot:5,id:golden_apple,Count:2},{Slot:6,id:melon_slice,Count:16},{Slot:7,id:cookie,Count:16},{Slot:8,id:cake,Count:1}]} replace
 execute if score c.rng c.main matches 52 run function chaos:event/start
 execute if score c.rng c.main matches 53 run function chaos:id/53
@@ -81,7 +81,7 @@ execute if score c.rng c.main matches 76 run function chaos:event/start
 execute if score c.rng c.main matches 77 run function chaos:event/start
 execute if score c.rng c.main matches 78 run function chaos:event/start
 execute if score c.rng c.main matches 79 run function chaos:event/start
-execute if score c.rng c.main matches 80
+execute if score c.rng c.main matches 80 run function chaos:event/start
 execute if score c.rng c.main matches 81
 execute if score c.rng c.main matches 82
 execute if score c.rng c.main matches 83

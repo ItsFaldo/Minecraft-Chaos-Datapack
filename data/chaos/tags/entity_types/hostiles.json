@@ -32,6 +32,8 @@
 	"minecraft:vindicator",
 	"minecraft:wither_skeleton",
 	"minecraft:zoglin",
-	"minecraft:ender_dragon"
+	"minecraft:ender_dragon",
+	"minecraft:giant",
+	"minecraft:illusioner"
 	]
 }

@@ -37,6 +37,7 @@ Removed
 			/scoreboard objectives setdisplay sidebar c.main
 		To hide them again type:
 			/scoreboard objectives setdisplay sidebar
+	Slow falling from 'Lucky' (39)
 	
 Fixed
 	Countdown volume not updating
@@ -61,7 +62,7 @@ Modified
 		instead of dropping them from the sky
 		Added 8 Netherite Ingots	
 	Eggsodus (67) chickens drop eggs every 10 seconds
-		instead of every 5 seconds
+		instead of every 5 seconds	
 
 
 == Version 1.2 ==

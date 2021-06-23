@@ -1,5 +1,5 @@
 execute if score c.event c.main matches 1.. run scoreboard players set c.rng c.main 999
-execute if score c.event c.main matches 1.. run scoreboard players set c.event.timer c.main 1
+
 
 execute if score c.rng c.main matches 49 run scoreboard players set c.event c.main 1
 execute if score c.rng c.main matches 52 run scoreboard players set c.event c.main 2

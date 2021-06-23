@@ -45,6 +45,7 @@ Fixed
 	Eggsodus (67) stops working after 1 minute
 	Hostiles.json missing all hostile entitys
 	passives.json missing all passive entitys
+	Events not ending before next effect
 
 Modified
 	RNG is now generated via a loot table

@@ -26,6 +26,6 @@ execute if score c.timer c.main matches 59 unless score c.debug c.main matches 1
 execute if score c.timer c.main matches 56..58 unless score c.debug c.main matches 1.. as @a run execute at @s run playsound minecraft:block.note_block.bit record @s ~ ~ ~ 1 0.7 0
 execute if score c.timer c.main matches 59 unless score c.debug c.main matches 1.. as @a run execute at @s run playsound minecraft:block.note_block.bit record @s ~ ~ ~ 1 1 0
 execute if score c.timer c.main matches 59 run function chaos:do
-execute if score c.timer c.main matches 59 run scoreboard players set c.timer c.main 0
+execute if score c.timer c.main matches 60 run scoreboard players set c.timer c.main 0
 
 execute if score c.event c.main matches 1.. run function chaos:event/timer

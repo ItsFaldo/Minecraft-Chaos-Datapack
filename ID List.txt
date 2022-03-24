@@ -59,8 +59,22 @@
 59: Dig Down (Redstone)
 60: Dig Down (Emerald)
 61: Dig Down (Quartz)
-62: Ghast
-63: Wither_Skeleton
+62: Ghasts
+63: Wither Skeleton
 64: Blaze
 65: Godly Zombie
 66: Godly Skeleton
+67: Eggsodus (2 Minutes)
+68: Timelapse (2 Minutes)
+69: From Riches to Dirt (3 Minutes)
+70: Triggered Creepers
+71: Creeper Time
+72: Free Ender Chest
+73: Fletching Trader
+74: Villager Delivery
+75: Like Comment Subscribe
+76: Midas Touch (1 Minute)
+77: OH NO, NOT THE BEES! (3 Minutes)
+78: Friendly Creepers (3 Minutes)
+79: Friendly Monsters (3 Minutes)
+80: 1HP (3 Minutes)

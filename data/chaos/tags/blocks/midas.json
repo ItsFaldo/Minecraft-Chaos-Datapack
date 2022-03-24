@@ -1,0 +1,13 @@
+{
+    "values":[
+      "minecraft:air",
+      "minecraft:cave_air",
+      "minecraft:grass",
+      "minecraft:tall_grass",
+      "#minecraft:flowers",
+      "minecraft:chest",
+      "minecraft:trapped_chest",
+      "minecraft:ender_chest",
+      "#minecraft:shulker_boxes"
+      ]
+  }

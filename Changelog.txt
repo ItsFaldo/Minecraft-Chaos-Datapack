@@ -1,17 +1,88 @@
-Chaos Datapack Changelog
+Minecraft Chaos Datapack Changelog
 Numbers in brackets are Effect ID's
 	(See 'ID List.txt')
 
+== Version 2.0 - Code Rewrite ==
+Added
+	14 New Effects
+		Eggsodus (67) [Chickens lay eggs very fast]
+		Timelapse (68) [Time moves fast]
+		From Riches to Dirt (69) [Dropped items turn into dirt]
+		Triggered Creepers (70) [All creepers explode]
+		Creeper Time (71) [All entitys become creepers]
+		Free Ender Chest (72)
+		Fletching Trader (73) [Small trading post with villager]
+		Villager Delivery (74) [A villager kills animals and delivers the food]
+		Like Comment Subscribe (75)
+		Midas Touch (76) [Turns blocks into gold]
+		OH NO, NOT THE BEES (77) [Constant attacking bees]
+		Friendly Creepers (78) [Creepers never attack]
+		Friendly Monsters (79) [Monsters never attack]
+		1HP (3 Minutes) [All players have 1HP]
+
+	Update Detection
+		Updates your world when a previous version is found
+
+	Debug Mode & Menu [/function chaos:debug]
+		Stops RNG & Disables Effects
+		Disables on world load / reload
+		Menu Options
+			Get list of Effect ID's (Opens the Github Page)
+			Set & Run an effect	
+			Change effect target
+				Yourself, Everyone and No one
+			Reload Datapack(s) & Disable Debug Mode
+
+Removed
+	Tracker armor stand
+	All scoreboards
+		Replaced with 2 new ones ('c.main' & 'c.ver')
+		To see scoreboard values type: /function chaos:debug
+	Slow falling from 'Lucky' (39)
 	
+Fixed
+	Countdown volume not updating
+	Datapack stops working occasionally after reloading
+	Eggsodus (67) stops working after 1 minute
+	Hostiles.json missing all hostile entitys
+	passives.json missing all passive entitys
+	Events not ending before next effect
+
+Modified
+	RNG is now generated via a loot table
+	All scoreboard values are applied to 'c.main'	
+	Version number is now stored on 'c.ver'
+		(as 'cv.major' & 'cv.minor')		
+	Wither_Skeleton (63) renamed to 'Wither Skeleton'	
+	Ghasts (62) now spawn in sets of 3
+	Dig Down (54..61) now replace instead of destroying land
+		Added sound effect
+		Changed Nether Quartz Ore (61) to Ancient Debris
+			Reduced size from 18 to 9
+	TP Everyone to Random Area (16)
+		And Nether (17) have lower distance		
+	Animal Jockeys (41) teleports instead of kills
+	Midas Touch (67) now ignores
+		air, cave_air, grass, tall_grass, #flowers,
+		chest, trapped_chest, ender_chest, #shulker_boxes
+	Player is Richer (47) now gives items
+		instead of dropping them from the sky
+		Added 8 Netherite Ingots	
+	Eggsodus (67) chickens drop eggs every 10 seconds
+		instead of every 5 seconds	
+	Blindness (2) Duration to 60 from 120
+	Slowness (8) Duration to 60 from 120
+
+
 == Version 1.2 ==
 Added
 	13 New Effects
-	Ore Vains (54..61)
-	Ghast (62)
-	Wither_Skeleton (63)
-	Blaze (64)
-	Godly Zombie (65)
-	Gofly Skeleton (66)
+		Ore Vains (54..61)
+		Ghast (62)
+		Wither Skeleton (63)
+		Blaze (64)
+		Godly Zombie (65)
+		Godly Skeleton (66)
 
 Fixed
 	Saturation only lasting 2 seconds
@@ -21,13 +92,13 @@ Fixed
 == Version 1.1 ==
 Added
 	6 New Effects
-	Zombie & Skeleton Squad
-		[Replaces Zombie (44) & Skeleton (45)]
-	Picnic Basket (51) [Lots of different foods]
-	Kill Aura [Event]
-		[Replaces Hostiles Down (49)]
-	Fly On The Wings Of Love (52) [Event]
-	Killer Bunnies (53)
+		Zombie & Skeleton Squad
+			Replaces Zombie (44) & Skeleton (45)
+		Kill Aura [Event]
+			Replaces Hostiles Down (49)
+		Picnic Basket (51) [Lots of different foods]
+		Fly On The Wings Of Love (52) [Event]
+		Killer Bunnies (53)
 	
 Fixed
 	Welcome Text (Now appears in chat)

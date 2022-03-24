@@ -1,0 +1,2 @@
+execute if score c.event.timer c.main matches 49 run tellraw @a[tag=!c.ignore] ["",{"text":"\n"},{"text":"Midas Touch will end in 10 Seconds!","color":"gold"},{"text":"\n "}]
+execute if score c.event.timer c.main matches 59.. run function chaos:event/cleanup

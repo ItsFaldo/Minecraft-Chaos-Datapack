@@ -1,23 +1,25 @@
-scoreboard objectives add c.id dummy
-scoreboard objectives add c.doid dummy
-scoreboard objectives add c.event dummy
-scoreboard objectives add c.event.timer dummy
-scoreboard objectives add c.event.trig trigger
+scoreboard objectives add c.main dummy "Chaos Debug"
+scoreboard objectives add c.ver dummy "Chaos Version"
+scoreboard players set c.ticktime c.main 0
+scoreboard players reset c.rng c.main
+scoreboard players reset c.timer c.main
+scoreboard players reset c.event.timer c.main
 
-scoreboard objectives add c.walk minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add c.sprint minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add c.crouch minecraft.custom:minecraft.crouch_one_cm 
+function chaos:event/cleanup
+scoreboard players reset c.event c.main
 
-scoreboard objectives add c.t1 dummy
-scoreboard objectives add c.timer dummy
+## Detect old versions
+execute if entity @e[type=minecraft:armor_stand,tag=c.track,limit=1] run function chaos:update/1x
+
+forceload add 0 0
+setblock 0 1 0 chest replace
+team add c.friendly
+scoreboard players set cv.major c.ver 2
+scoreboard players set cv.minor c.ver 0
+function chaos:debug/disable
 
 bossbar add chaos:timerbar {"text":""}
 bossbar set chaos:timerbar color red
 bossbar set chaos:timerbar max 59
 bossbar set chaos:timerbar value 0
-bossbar set chaos:timerbar name {"text":"Chaos Datapack v1.2 Initialized!"}
-scoreboard players set @a c.doid 0
-
-forceload add 0 0
-kill @e[tag=c.track]
-execute positioned 0 12 0 run summon minecraft:armor_stand 0 12 0 {Invisible:1,Marker:1,Tags:["c.track"]}
+bossbar set chaos:timerbar name ["",{"text":"Minecraft Chaos v"},{"score":{"name":"cv.major","objective":"c.ver"}},{"text":"."},{"score":{"name":"cv.minor","objective":"c.ver"}},{"text":" Initialized!"}]

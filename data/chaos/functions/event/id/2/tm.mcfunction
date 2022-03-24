@@ -1,2 +1,2 @@
-execute at @e[type=armor_stand,tag=c.track,scores={c.event.timer=180..}] run function chaos:event/cleanup
-execute at @e[type=armor_stand,tag=c.track,scores={c.event.timer=170}] run tellraw @a ["",{"text":"\n"},{"text":"Fly on the wings of love will end in 10 Seconds!","color":"gold"},{"text":"\n "}]
+execute if score c.event.timer c.main matches 169 run tellraw @a[tag=!c.ignore] ["",{"text":"\n"},{"text":"Fly on the wings of love will end in 10 Seconds!","color":"gold"},{"text":"\n "}]
+execute if score c.event.timer c.main matches 179.. run function chaos:event/cleanup

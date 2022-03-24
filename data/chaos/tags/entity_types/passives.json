@@ -25,6 +25,9 @@
 	"minecraft:polar_bear",
 	"minecraft:villager",
 	"minecraft:iron_golem",
-	"minecraft:wandering_trader"
+	"minecraft:wandering_trader",
+	"minecraft:axolotl",
+	"minecraft:glow_squid",
+	"minecraft:goat"
 	]
 }

@@ -2,6 +2,12 @@ Minecraft Chaos Datapack Changelog
 Numbers in brackets are Effect ID's
 	(See 'ID List.txt')
 
+== Version 2.1 ==
+Added
+Removed
+Fixed
+Modified
+
 == Version 2.0 - Code Rewrite ==
 Added
 	14 New Effects

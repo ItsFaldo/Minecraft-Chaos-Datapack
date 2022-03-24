@@ -15,7 +15,7 @@ forceload add 0 0
 setblock 0 1 0 chest replace
 team add c.friendly
 scoreboard players set cv.major c.ver 2
-scoreboard players set cv.minor c.ver 0
+scoreboard players set cv.minor c.ver 1
 function chaos:debug/disable
 
 bossbar add chaos:timerbar {"text":""}

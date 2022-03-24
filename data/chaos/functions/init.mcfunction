@@ -16,6 +16,7 @@ setblock 0 1 0 chest replace
 team add c.friendly
 scoreboard players set cv.major c.ver 2
 scoreboard players set cv.minor c.ver 0
+function chaos:debug/disable
 
 bossbar add chaos:timerbar {"text":""}
 bossbar set chaos:timerbar color red

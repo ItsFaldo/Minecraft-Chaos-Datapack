@@ -25,6 +25,7 @@ Added
 
 	Debug Mode & Menu [/function chaos:debug]
 		Stops RNG & Disables Effects
+		Disables on world load / reload
 		Menu Options
 			Get list of Effect ID's (Opens the Github Page)
 			Set & Run an effect	

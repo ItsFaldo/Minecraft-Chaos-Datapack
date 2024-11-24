@@ -49,7 +49,7 @@ execute if score c.rng c.main matches 44 run execute at @a[tag=!c.ignore] run su
 execute if score c.rng c.main matches 45 run execute at @a[tag=!c.ignore] run summon minecraft:skeleton_horse ~ ~ ~ {Tame:1,Health:75,Attributes:[{Name:"generic.max_health",Base:75F}],Passengers:[{id:skeleton,HandItems:[{id:bow,Count:1b}],Passengers:[{id:skeleton,HandItems:[{id:bow,Count:1b}],Passengers:[{id:skeleton,HandItems:[{id:bow,Count:1b}],Passengers:[{id:skeleton,HandItems:[{id:bow,Count:1b}]}]}]}]}]}
 execute if score c.rng c.main matches 46 at @a[tag=c.use,tag=!c.ignore] run summon minecraft:slime ~ ~ ~ {Size:15}
 execute if score c.rng c.main matches 47 run function chaos:id/47
-execute if score c.rng c.main matches 48 run execute at @a[tag=!c.ignore] run fill ~1 255 ~1 ~-1 1 ~-1 air replace
+execute if score c.rng c.main matches 48 run function chaos:id/48
 execute if score c.rng c.main matches 49 run function chaos:event/start
 execute if score c.rng c.main matches 50 run execute as @a[tag=!c.ignore] at @s run tp @e[type=#chaos:passives,distance=..150] @s
 execute if score c.rng c.main matches 51 run execute at @a[tag=!c.ignore] run setblock ~ ~ ~ chest[facing=south]{CustomName:"\"Picnic Basket\"",Items:[{Slot:0,id:cooked_chicken,Count:6},{Slot:1,id:cooked_beef,Count:6},{Slot:2,id:cooked_porkchop,Count:6},{Slot:3,id:baked_potato,Count:8},{Slot:4,id:pumpkin_pie,Count:4},{Slot:5,id:golden_apple,Count:2},{Slot:6,id:melon_slice,Count:16},{Slot:7,id:cookie,Count:16},{Slot:8,id:cake,Count:1}]} replace

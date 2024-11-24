@@ -12,6 +12,7 @@ Fixed
 		Effect not activating untill you take damage
 
 Modified
+	Event ending time is now displayed on actionbar (above inventory)
 
 == Version 2.0 - Code Rewrite ==
 Added

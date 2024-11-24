@@ -5,7 +5,7 @@
  [<b>Installation Guide</b>](https://github.com/ItsFaldo/Minecraft-Chaos-Datapack/wiki/Installation) |
  [<b>All Releases</b>](https://github.com/ItsFaldo/Minecraft-Chaos-Datapack/releases) |
  [<b>Downloads</b>](https://github.com/ItsFaldo/Minecraft-Chaos-Datapack/wiki/Downloads)<br>
- Current Branch: v2.1 Dev (1.17 to 1.18.2)
+ Current Branch: v2.1 Dev (1.17 to 1.18.2) | [<b>See Changes</b>](https://github.com/ItsFaldo/Minecraft-Chaos-Datapack/commits/main)
  <br>
  
  If you use this datapack in a video, please include a [link](https://github.com/ItsFaldo/Minecraft-Chaos-Datapack) to this github.

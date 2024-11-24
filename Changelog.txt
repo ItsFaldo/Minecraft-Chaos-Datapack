@@ -4,8 +4,13 @@ Numbers in brackets are Effect ID's
 
 == Version 2.1 ==
 Added
+
+	1HP (80) now gives you full health on ending
 Removed
 Fixed
+	1HP (80) not working correctly
+		Effect not activating untill you take damage
+
 Modified
 
 == Version 2.0 - Code Rewrite ==

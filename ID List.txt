@@ -78,3 +78,4 @@
 78: Friendly Creepers (3 Minutes)
 79: Friendly Monsters (3 Minutes)
 80: 1HP (3 Minutes)
+81: Crazy Town (2 Minutes)

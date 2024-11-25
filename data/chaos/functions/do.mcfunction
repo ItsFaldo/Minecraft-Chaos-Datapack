@@ -82,3 +82,4 @@ execute if score c.rng c.main matches 77 run function chaos:event/start
 execute if score c.rng c.main matches 78 run function chaos:event/start
 execute if score c.rng c.main matches 79 run function chaos:event/start
 execute if score c.rng c.main matches 80 run function chaos:event/start
+execute if score c.rng c.main matches 81 run function chaos:event/start

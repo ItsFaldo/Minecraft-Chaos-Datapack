@@ -4,6 +4,14 @@ Numbers in brackets are Effect ID's
 
 == Version 2.1 ==
 Added
+	Crazy Town (81) [Mobs have insane speed, explode and go crazy]
+	
+	#chaos:all entity types list (All mobs)
+	Better event system
+		Multipull events can now run at the same time
+		Events are effects that do something every tick or 1s
+		such as Timelapse (68) or OH NO, NOT THE BEES (77)
+
 Removed
 Fixed
 	1HP (80) not working correctly

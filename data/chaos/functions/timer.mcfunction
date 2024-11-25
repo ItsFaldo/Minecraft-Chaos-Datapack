@@ -8,7 +8,7 @@ execute if score c.timer c.main matches 10.. run tellraw @a[tag=!c.tut] {"text":
 execute if score c.timer c.main matches 10.. run tellraw @a[tag=!c.tut] ["",{"text":"Welcome to Minecraft Chaos v"},{"score":{"name":"cv.major","objective":"c.ver"}},{"text":"."},{"score":{"name":"cv.minor","objective":"c.ver"}}]
 execute if score c.timer c.main matches 10.. run tellraw @a[tag=!c.tut] ["",{"text":"Created by "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"!"},{"text":" Also known as: ","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}},{"text":"\nALIENated","color":"light_purple","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}},{"text":" & ","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}},{"text":"ThatRandomSomeone","color":"green","hoverEvent":{"action":"show_text","contents":["",{"text":"These are "},{"text":"F","color":"red"},{"text":"a","color":"gold"},{"text":"l","color":"yellow"},{"text":"d","color":"green"},{"text":"o","color":"aqua"},{"text":"'s other usernames"}]}}]
 execute if score c.timer c.main matches 10.. run tellraw @a[tag=!c.tut] {"text":""}
-execute if score c.timer c.main matches 10.. run tellraw @a[tag=!c.tut] ["",{"text":"There are "},{"text":"80","color":"green"},{"text":" random effects!\nA random effect happens every minute"}]
+execute if score c.timer c.main matches 10.. run tellraw @a[tag=!c.tut] ["",{"text":"There are "},{"text":"81","color":"green"},{"text":" random effects!\nA random effect happens every minute"}]
 execute if score c.timer c.main matches 10.. run tellraw @a[tag=!c.tut] {"text":"Good luck! For more info, click here","hoverEvent":{"action":"show_text","contents":{"text":"The red bar at the top of the screen\nindicates the time till the next effect.\n\nThere is a 3 second countdown above\nthe red bar with note block sounds.\n\nTo change the countdown volume, go to\nMusic & Sound Options. (Jukebox/Note...)\n\nThe last effect is shown above\nthe red bar after 10 seconds."}}}
 execute if score c.timer c.main matches 10.. run tellraw @a[tag=!c.tut] {"text":""}
 execute if score c.timer c.main matches 10.. run tag @a[tag=!c.tut] add c.tut
@@ -28,4 +28,6 @@ execute if score c.timer c.main matches 59 unless score c.debug c.main matches 1
 execute if score c.timer c.main matches 59 run function chaos:do
 execute if score c.timer c.main matches 60 run scoreboard players set c.timer c.main 0
 
-execute if score c.event c.main matches 1.. run function chaos:event/timer
+##execute if score c.event c.main matches 1.. run function chaos:event/timer
+
+function chaos:event/timer

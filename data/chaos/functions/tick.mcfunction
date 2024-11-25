@@ -5,4 +5,5 @@ execute if score c.ticktime c.main matches 20.. run function chaos:timer
 execute if score c.ticktime c.main matches 20.. run scoreboard players set c.ticktime c.main 0
 
 
-execute if score c.event c.main matches 1.. run function chaos:event/tick
+##execute if score c.event c.main matches 1.. run function chaos:event/tick
+function chaos:event/tick
